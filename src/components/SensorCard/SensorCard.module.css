@@ -1,0 +1,29 @@
+.card {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.02);
+  }
+  .value {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .status {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .normal {
+    border-left: 5px solid green;
+  }
+  .warning {
+    border-left: 5px solid orange;
+  }
+  .critical {
+    border-left: 5px solid red;
+  }
+  

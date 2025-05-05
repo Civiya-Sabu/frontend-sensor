@@ -1,0 +1,20 @@
+.health {
+    background: #f8f9fc;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 45%;
+  }
+  .circle {
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    background: lightgreen;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  

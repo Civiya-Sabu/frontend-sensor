@@ -1,0 +1,17 @@
+.alerts {
+    background: #fef7f7;
+    padding: 20px;
+    border-radius: 12px;
+    width: 45%;
+  }
+  .alerts ul {
+    list-style: none;
+    padding: 0;
+  }
+  .alerts li {
+    background: #ffd1d1;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
