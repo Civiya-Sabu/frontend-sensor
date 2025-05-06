@@ -6,6 +6,7 @@ import SensorCard from '../SensorCard/SensorCard';
 import SystemHealth from '../SystemHealth/SystemHealth';
 import Alerts from '../Alerts/Alerts';
 import DetailedChart from '../DetailedChart/DetailedChart';
+import UserFlow from '../UserFlow/UserFlow';
 import styles from './SensorDashboard.module.css';
 
 const SensorDashboard = () => {
@@ -49,7 +50,9 @@ const SensorDashboard = () => {
             <SystemHealth />
             <Alerts sensors={sensors} />
           </div>
-
+          <div className={styles.userFlowSection}>
+            <UserFlow />
+          </div>
           <DetailedChart />
         </>
       )}

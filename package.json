@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.2",
     "@reduxjs/toolkit": "^2.7.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -14,6 +17,7 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.5.3",
     "react-scripts": "5.0.1",
+    "reactflow": "^11.11.4",
     "recharts": "^2.15.3",
     "socket.io-client": "^4.8.1",
     "web-vitals": "^2.1.4"
